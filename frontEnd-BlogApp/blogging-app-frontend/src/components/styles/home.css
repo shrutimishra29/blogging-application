@@ -1,0 +1,72 @@
+/* home.css */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@500&display=swap');
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.background-image {
+  background-image: url('https://images.unsplash.com/photo-1546177461-7a682f0bbf7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  color: #8a7090;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content h3 {
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.content p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #775144;
+  line-height: 1.5; /* Adjust line height for better readability */
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+.button-container p{
+  color: #fff;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffbc42; /* Green background color, you can change it */
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #b5d8cc; /* Darker green on hover, you can change it */
+}
+
+.action-button span {
+  margin-top: 5px;
+}
+
+/* Add more styles or adjust as needed */

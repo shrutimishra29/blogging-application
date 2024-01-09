@@ -1,0 +1,72 @@
+.border-0 {
+    border: 0;
+  }
+  
+/* Add this style to your CSS file */
+/* newfeed.css */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.loader-container svg {
+  font-size: 2em; /* Adjust the font size as needed */
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Display cards side by side */
+.card {
+    flex: 0 0 calc(100% - 20px); /* Adjust width and add margin between cards */
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 576px) {
+    .card {
+      flex: 0 0 calc(48% - 20px); /* Two cards side by side on small screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      flex: 0 0 calc(31% - 20px); /* Three cards side by side on medium screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card {
+      flex: 0 0 calc(23% - 20px); /* Four cards side by side on large screens */
+    }
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mt-5 {
+    margin-top: 5rem;
+  }
+  .pagination {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .pagination-link:hover {
+    text-decoration: underline;
+  }
+  

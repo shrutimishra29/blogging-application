@@ -1,0 +1,29 @@
+/* userDashboard.css */
+
+.container {
+    margin-top: 5rem;
+  }
+  
+  h3 {
+    color: #343a40;
+  }
+  
+  .NewPost {
+    margin-top: 2rem;
+  }
+  
+  .CardBody {
+    padding: 1.25rem;
+  }
+  
+  .Button {
+    margin-top: 1rem;
+    background-color: #d81159;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .wrapper {
+    margin-top: 2rem;
+  }
+  

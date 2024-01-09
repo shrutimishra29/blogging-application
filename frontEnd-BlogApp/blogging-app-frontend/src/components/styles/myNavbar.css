@@ -1,0 +1,14 @@
+/* myNavbar.css */
+
+.navbar-custom {
+  background-color: #8d3b72;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #8a7090;
+}
+
+.navbar-custom .nav-link:active,
+.navbar-custom .nav-link:focus {
+  color: #8a7090;
+}
